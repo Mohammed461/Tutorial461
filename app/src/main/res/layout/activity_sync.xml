@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlayouts">
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/imageViewLocal"
@@ -17,7 +17,7 @@
         android:layout_marginRight="130dp"
         android:layout_marginBottom="445dp"
         android:contentDescription="TODO"
-        android:src="@drawable/a"
+        android:src="@drawable/backup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="109dp"
         android:layout_marginRight="109dp"
         android:layout_marginBottom="343dp"
-        android:src="@drawable/json2"
+        android:src="@drawable/json"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"

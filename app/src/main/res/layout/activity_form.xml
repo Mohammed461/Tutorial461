@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@color/colorAccent"
     android:orientation="vertical">
 
 
@@ -11,12 +11,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:hint="Name"
         android:padding="15dp"
         android:textColorHint="#fff"
         android:textStyle="bold|italic" />
-
 
 
     <EditText
@@ -24,7 +23,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:hint="Phone"
         android:padding="15dp"
         android:textColorHint="#fff"
@@ -36,7 +35,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:hint="Email"
         android:padding="15dp"
         android:textColorHint="#fff"
@@ -48,7 +47,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@color/colorAccent"
+        android:background="@android:color/holo_blue_bright"
         android:text="ADD"
         android:textSize="25sp" /><!--25sp text size-->
 

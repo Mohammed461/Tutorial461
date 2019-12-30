@@ -31,7 +31,7 @@ public class SyncActivity extends AppCompatActivity {
 
 
     ImageView SaveButtonInSQLite, ShowSQLiteDataInListView;
-    String HttpJSonURL = "http://192.168.43.61/android/syncdata.php";
+    String HttpJSonURL = "http://172.20.10.3/android/syncdata.php";
 
     ProgressDialog progressDialog;
 

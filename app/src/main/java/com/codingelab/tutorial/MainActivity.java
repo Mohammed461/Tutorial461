@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         this.onInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String msg=syn.doInBackground("insert","muath","0552365263","msaaha@hotmail.com");
+                String msg=syn.doInBackground("insert","mohamed","0552365263","mohamed@hotmail.com");
                 Toast.makeText(getBaseContext(),msg,Toast.LENGTH_SHORT).show();
             }
         });
@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
             }
         });
         this.onAdd = (Button) findViewById(R.id.btn_Add);
+        /////////////////////////// add////////////////////////////////////
         this.onAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,6 +52,8 @@ public class MainActivity extends Activity {
 
             }
         });
+
+        ///////////////////////////sohw alll////////////////////////////////////////
         this.onLoad = (Button) findViewById(R.id.btn_Load);
         this.onLoad.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +62,7 @@ public class MainActivity extends Activity {
                 startActivity(Load);
             }
         });
-
+//////////////////////////////////syn///////////////////////////////////////////////////////////////////
         this.sync = (ImageView) findViewById(R.id.imageView);
 
         this.sync.setOnClickListener(new View.OnClickListener() {

@@ -42,7 +42,7 @@ public class Syn extends AsyncTask<String,Void,String> {
     }
     @TargetApi(Build.VERSION_CODES.KITKAT)
     private String onInsert(String ... params){
-        String phpPageULR="http://192.168.43.61/android/mysql_write.php";
+        String phpPageULR="http://172.20.10.3/android/mysql_write.php";
         try {
             // preparing the URL for the connection
             URL url=new URL(phpPageULR);
@@ -86,7 +86,7 @@ public class Syn extends AsyncTask<String,Void,String> {
 
     @TargetApi(Build.VERSION_CODES.KITKAT)
     private String onDelete(String ... params){
-        String phpPageULR="http://192.168.43.61/android/deletedata.php";
+        String phpPageULR="http://172.20.10.3/android/deletedata.php";
         try {
             // preparing the URL for the connection
             URL url=new URL(phpPageULR);
@@ -128,7 +128,7 @@ public class Syn extends AsyncTask<String,Void,String> {
 
     @TargetApi(Build.VERSION_CODES.KITKAT)
     private String onUpdate(String ... params){
-        String phpPageULR="http://192.168.43.61/android/updatedata.php";
+        String phpPageULR="http://172.20.10.3/android/updatedata.php";
         try {
             // preparing the URL for the connection
             URL url=new URL(phpPageULR);

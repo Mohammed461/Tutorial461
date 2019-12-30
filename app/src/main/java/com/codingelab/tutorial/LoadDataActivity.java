@@ -45,7 +45,7 @@ public class LoadDataActivity extends AppCompatActivity {
 
         }
         this.syn=new Syn();
-        this.getJSON("http://192.168.43.61/android/getdata.php");
+        this.getJSON("http://172.20.10.3/android/getdata.php");
         SubjectListView = (ListView) findViewById(R.id.listuser);
         update = (Button) findViewById(R.id.btn_Update);
         delete = (Button) findViewById(R.id.btn_Delete);
