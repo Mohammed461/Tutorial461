@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.codingelab.tutorial.MainActivity">
+
+
+    <Button
+        android:id="@+id/onInsert"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/btn_Add"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_launcher"
+        android:hint="Insert for andrud"
+        android:padding="5dp"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/onSyn"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/onInsert"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/button_syn"
+        android:text="Syn" />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_launcher"
+        android:hint="insart the data"
+        android:padding="5dp"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_Load"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/onSyn"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_launcher"
+        android:hint="show the data"
+        android:padding="5dp"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/onLocalToRemote"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/btn_Load"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/button_syn"
+        android:text="From Local to Remote" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="95dp"
+        android:layout_below="@id/onLocalToRemote"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/j" />
+
+</RelativeLayout>
